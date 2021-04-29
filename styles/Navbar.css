@@ -1,0 +1,26 @@
+header {
+padding:20px; 
+background-color:black;
+height: 95px;
+color:white;
+font-style: italic;
+ font-size: 3rem ;
+
+
+}
+.navbar { 
+    width:240px ; 
+    background-color: black;
+    position: absolute;
+    height :95vh;
+    padding: 0 30px ;  
+    transition: all 1s; 
+}
+.left {
+    position:absolute;
+     right:32px ; 
+      font-size: 4rem ;
+      /*background-color:black;
+   color:white;*/
+   
+}
