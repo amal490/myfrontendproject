@@ -1,0 +1,414 @@
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidBD a:hover {
+  color: #f1f1f1;
+}
+ .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} 
+  .sidBD
+  {
+      height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }
+  .subBD{
+      background-color:#111;
+      /*color: white;*/
+       padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  }
+  /* .subBD{
+      background-color: #111;
+      /*color: white;
+      
+      sans a*/
+
+      .tableDash{
+           height: 30%;
+          width: 700px;
+          justify-content: left;
+            border-radius:10px; 
+    box-shadow:0px 1px 10px 1px black ; 
+        
+
+      }
+      /* c pour l'icons */ 
+      .eye {
+          color: violet;
+          width: 40px; 
+      }
+.eyeh a:hover {
+    color:red;
+} 
+.delete{
+    color: red;
+}
+/*navbardash*/ 
+.NavDash{
+  height:80px; 
+  background-color:black;
+  color:white;
+}
+.navbarDash{ 
+
+  height:80px; 
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+
+
+    /* height:80px; 
+     background-color:black;
+    color:white;*/
+}
+.navbarDash a{
+    float: right;
+  text-align: center;
+  padding: 27px 20px 20px 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  /**/
+  display:flex; 
+  justify-content:space-between;
+  align-items: center;
+}
+.navbarDash a:hover { 
+     background-color:rgb(87, 145, 253);
+}
+
+
+
+/*.itmNav{
+    color:white ; 
+
+}*/ 
+
+/*profileAdmin*/ 
+.imgProfileAdmin{
+     width: 50%;
+    border-radius: 40%;
+    height:150px;
+}
+.hrProfileAdmin{ 
+    width:30% ; 
+}
+.containerprofileAdmin{
+    height:200px;
+    background-color: black;
+    width: 300px;
+    font-size: 18px;
+    padding:5px 15px;
+    font-style: italic;
+}
+.containerDashboard{
+    background-color:/*rgb(80, 152, 252);*/white ;
+} 
+.containerImgAdmin{
+    height: 175px;
+}
+.Popover { 
+    width:80px;
+    height:30px;
+}
+.contentPop{ 
+    width:100px;
+    height:100px;
+
+}
+.btnSignout{ 
+    width:85px;
+    background-color:red;
+    color: #000;
+    font-size:10px ;
+    padding :10px 8px 20px ;
+    float:center;
+}
+.btnprofile{ 
+    width:150px;
+    color: #000;
+    background-color:gold;
+    font-size: smaller;
+
+}
+.Question{ 
+    width:100px;
+    height:30px;
+    color: rgb(87, 145, 253);
+}
+.titleSite{
+  color:red;
+    float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  
+
+}
+.baseTitle { 
+    color:violet;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+ /*calender*/
+ .site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid violet;
+  border-radius: 2px;
+  background-color: violet;
+  color: violet;
+}
+.Calendar{ 
+    color: violet;
+background-color: violet;
+}
+
+/*Account css*/
+.cardAccount{ 
+    width:60%; 
+    height:500px ; 
+
+    background-color: white;
+
+    border-radius:10px; 
+    box-shadow:0px 1px 10px 1px black ; 
+
+
+}
+.cardEditAccount{
+     width:400px; 
+    height:600px ; 
+    /*background-color: white;*/
+    border-radius:10px; 
+    box-shadow:0px 1px 10px 1px black ; 
+      background: linear-gradient(to left,#2d00d7,#ff0291);
+
+}
+.appAcc{ 
+    display:flex; 
+    width:100%;
+    height:100vh; 
+    justify-content:center;
+    align-items:center;
+    padding: 250px;
+   
+}
+
+ .upper-container{ 
+     height:100px ; 
+      background: linear-gradient(to left,#2d00d7,#ff0291);
+
+ }
+ .imgAccContainer img{ 
+     background-color:white;
+     width: 100px;
+     height:100px;
+     border-radius:50%; 
+     padding:5px;
+     transform: translate(130px,45px);}
+
+img{ 
+    border:2px solid #8e00b9; 
+
+}    
+.lower-container{ 
+    margin-top:60px;
+    height:300px;
+    background:white;
+    text-align:center;
+    font-family:monospace;
+    
+}
+.lower-container h3,h4,h2 { 
+    margin:0;
+    padding:0;
+}
+.lower-container h3{ 
+    color:rgb(80, 152, 252);
+    font-size:1.5rem;
+    font-weight:600 ;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.lower-container h4{ 
+    color:#8e00b9;
+    font-size:1.3rem;
+    font-weight:500 ;
+   font-family:cursive ;
+
+}
+.lower-container h5{ 
+   
+    font-size:20px;
+    font-weight:800 ;
+  margin:2rem;
+font-family:monospace;
+  padding:20px -20px;
+  font-style: normal;
+}
+
+
+
+.btnEdit  { 
+    margin:1rem;
+    color:#2f2d2e; 
+    font:bold; 
+    background-color:white;
+    border: 2px solid #8e00b9;
+    border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out;
+   
+}
+.btnEdit:hover{ 
+     background-image:linear-gradient(to left,#2d00d7,#ff0291);
+
+}
+.Account{ 
+    background-color: white ; 
+    /*rgb(80, 152, 252)*/;
+}
+.btnUpdate{ 
+    margin:39.9px 20px 82px;
+    color:#2f2d2e; 
+    font:bold; 
+    background-color:white;
+    border: 2px solid #8e00b9;
+    border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out;
+}
+.btnUpdate:hover{ 
+    background-image:linear-gradient(to left,#082069,#3daaf8);
+
+
+}
+
+.btnUpload{
+     margin:/*0.3rem*/ 6.5px 90px;
+    color:#2f2d2e; 
+    font:bold; 
+    background-color:white;
+    border: 2px solid #8e00b9;
+    border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+
+}
+.btnOK{
+    color:#2f2d2e; 
+    font:bold; 
+    background-color:rgb(87, 145, 253); 
+    border: 2px solid rgb(87, 145, 253);
+    border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+
+}
+.btnCancel{ 
+background-color: red;
+ border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+   
+}
+.formAccount{ 
+    padding:70px 0px 20px 20px;
+}
+.Exclamation{ 
+    width: 50px;
+    height: 35px;
+    color:#082069;
+    float:right;
+}
+.containerCardEdit{ 
+     display:flex; 
+    width:100%;
+    height:100vh; 
+    justify-content:center;
+    align-items:center;
+
+}
+.iconEditAcc{
+    width:15px;
+    height:30px;
+    font-weight:600;
+    
+    
+
+}
+/*edittable*/
+
+.containerTableEdit{
+background-color:/* #3daaf8 */ white;
+}
+/*.cardTabEdit{ width:50%; 
+    height:100% ; 
+
+    background-color: white;
+
+    border-radius:10px; 
+    box-shadow:0px 1px 10px 1px black ; 
+
+
+}*/
+.tabEdit{
+     display:flex; 
+    justify-content:center;
+    align-items:center;
+    padding: 75px;
+   
+
+}
+/*.editable-row  {
+width:10px;
+font-size: 12px;
+}
+.ant-form-item-explain{
+     
+  font-size: 12px;
+
+}
+.table{
+    width:0px;
+}*/
+
+.btnEditProduct{ 
+     border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+     background: violet;
+
+}
+.btnSaveEditProduct{
+     border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+    background-color:green;
+}
+/*.btnEditProduct:hover{ 
+      background: linear-gradient(to left,#2d00d7,#ff0291);
+}*/
+.btnCancelEditProduct{ 
+ border-radius:6px;
+    transition-duration:0.5s;
+    animation:ease-in-out; 
+    background-color:red;
+
+}

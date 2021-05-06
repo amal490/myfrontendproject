@@ -12,8 +12,8 @@ function  searchProd () {
 return (
   <>
     <MyLayout>
-    
-      </MyLayout>
+      <Search />
+    </MyLayout>
   </>
 ); } 
  export default searchProd;

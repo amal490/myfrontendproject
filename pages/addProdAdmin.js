@@ -63,9 +63,9 @@ const addProdAdmin = () => {
                   //onChange={onGenderChange}
                   allowClear
                 >
-                  <Option value="male">male</Option>
-                  <Option value="female">female</Option>
-                  <Option value="other">other</Option>
+                  <Option value="male">Runing</Option>
+                  <Option value="female">footbal</Option>
+                  <Option value="other">fitness</Option>
                 </Select>
               </Form.Item>
               <Form.Item

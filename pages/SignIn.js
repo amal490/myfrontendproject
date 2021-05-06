@@ -1,21 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react'; 
 import DetSignIn from "../components/sign/detSignIn";
 

@@ -2,9 +2,9 @@
 export const productsList = [
   {
     key: "1",
-    name: (
-      <a href="http://localhost:3000/prod_details">tenu complet adidas noir </a>
-    ),
+    name:
+     "tenu complet adidas noir ",
+  
     price: "85",
     rate: "4",
     image:

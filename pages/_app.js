@@ -8,6 +8,7 @@ import "../styles/slide.css";
 import "../styles/Navbar.css";
 import "../styles/footerPanier.css";
 import "../styles/AllSign.css";
+import "../styles/sidbarDash.css";
 
 
 export default function MyApp({ Component, pageProps }) {

@@ -2,7 +2,6 @@
 import Navbar from "./navbar";
 import SideBar from "./sideBar";
 import {  Row, Col, Layout } from "antd";
-
 import { MenuItem } from "../../const/menuItem";
 import { CategoriesList } from "../../const/categoriesList";
 

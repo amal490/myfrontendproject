@@ -24,7 +24,7 @@ const SideBar = (props) => {
               key={categ.id}
               //icon={ <UserOutlined/>}
               title={categ.name}
-            >
+            > 
               {categ.subcateg.map((scateg) => {
                 return <Menu.Item key={scateg.key}>{scateg.name}</Menu.Item>;
               })}

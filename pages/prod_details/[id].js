@@ -28,8 +28,7 @@ class prod_details extends React.Component {
      let currentProduct = this.getProductByKey(query.id);
 
     return (
-      
-    <MyLayout>
+      <MyLayout>
         <>
           <Bread productName={currentProduct.name} />
           <Content>
@@ -37,7 +36,7 @@ class prod_details extends React.Component {
               <Col>
                 <Img productImgs={currentProduct.img} />
               </Col>
-              <Col  offset={6} span={8} >
+              <Col offset={6} span={8}>
                 <Details product={currentProduct} />
               </Col>
             </Row>
